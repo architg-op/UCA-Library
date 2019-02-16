@@ -1,0 +1,31 @@
+/* @media(min-width : 1000px) {
+    h1 {
+    background-color: red
+    }
+
+    .centerAlign {
+        text-align: center
+    }
+
+    .col-md-1 {
+        width : 8%;
+    }
+    .col-md-6 {
+        width : 50%;
+    }
+    body {
+        background-color: rgb(0, 110, 255)
+    }
+}
+
+@media(max-width : 1000px) {
+    h1 {
+        background-color: yellow
+    }
+    .col-sm-1 {
+        width : 8%;
+    }
+    .col-sm-12 {
+        width : 100%;
+    }
+} */

@@ -1,0 +1,18 @@
+<table *ngIf = "showTable" class="table">
+  <thead>
+    <tr>
+      <th scope="col">Sr. No</th>
+      <th scope="col">Book Name</th>
+      <th scope="col">Author Name</th>
+      <th scope="col">Availability</th>
+    </tr>
+  </thead>
+  <tbody> 
+    <tr *ngFor = "let book of booksList; let i=index">
+      <td scope="row">{{i}}</td>
+      <td><b>{{book.bookName}}</b></td>
+      <td><i>{{book.authorName}}</i></td>
+      <td>{{book.isAvailable}}</td>
+  </tbody>
+</table>
+<button (click) = "toggleTableVisibilty()">Toggle Table</button>
